@@ -2,14 +2,16 @@
 
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
-        <Nullable>false</Nullable>
+        <Nullable>disable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
-      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\" />
     </ItemGroup>
 
 </Project>
