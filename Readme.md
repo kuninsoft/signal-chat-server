@@ -4,7 +4,7 @@ A fast, minimal ASP.NET Core backend that powers a real-time chat application.
 
 The server exposes a SignalR hub for live communication and provides lightweight endpoints for room and user management. 
 
-Also uses compiled React frontend from @kuninsoft/signal-chat-client
+Also uses compiled React frontend from https://github.com/kuninsoft/signal-chat-client
 
 ## Features
 - Real-time messaging powered by SignalR
