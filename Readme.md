@@ -1,5 +1,7 @@
 # Messenger Backend
 
+You can try it here: https://signal-chat-geftetg5hmeugadb.westeurope-01.azurewebsites.net/
+
 A fast, minimal ASP.NET Core backend that powers a real-time chat application.
 
 The server exposes a SignalR hub for live communication and provides lightweight endpoints for room and user management. 
