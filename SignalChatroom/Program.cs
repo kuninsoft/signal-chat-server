@@ -4,7 +4,6 @@ using SignalChatroom.Services;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddCors();
 builder.Services.AddLogging();
 builder.Services.AddSignalR();
 
